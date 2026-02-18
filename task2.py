@@ -30,7 +30,7 @@ def main():
 
 
 # Comment out the line below after fixing input bugs
-main()
+#main()
 
 
 # --- Receipt Header ---
@@ -58,14 +58,14 @@ print(f"Soda: {soda_quantity} x ${soda_price} = ${soda_total}")
 # --- Gas ---
 # Price: $3.25 per gallon (float price, float quantity)
 gas_price = 3.25
-gallons = int(gallons_str)
+gallons = float(gallons_str)
 gas_total = gas_price * gallons
 print(f"Gas: {gallons} gallons x ${gas_price} = ${gas_total}")
 
 # --- Deli Meat ---
 # Price: $8.99 per pound (float price, float quantity)
 deli_price = 8.99
-pounds = int(pounds_str)
+pounds = float(pounds_str)
 deli_total = deli_price * pounds
 print(f"Deli Meat: {pounds} lbs x ${deli_price} = ${deli_total}")
 
